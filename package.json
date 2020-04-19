@@ -1,0 +1,38 @@
+{
+  "name": "Multilanguage",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && rimraf android/app/src/main/res/drawable-* && rimraf android/app/src/main/res/raw",
+    "apk-debug": "npm run clean && npm run build && cd android && gradlew assembleDebug",
+    "apk": "npm run clean && npm run build && cd android && gradlew assembleRelease",
+    "release": "npm run clean && npm run build && cd android && gradlew bundleRelease",
+    "clean": "cd android && gradlew clean",
+    "rebuild": "react-native bundle --platform android --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --dev false --reset-cache --assets-dest android/app/src/main/res/",
+    "android": "npm run clean && react-native run-android",
+    "ios": "npm run clean && react-native run-ios --simulator=\"iPhone X\"",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "clean:ios": "watchman watch-del-all && rm -rf $TMPDIR/react-* && rm -rf node_modules/ && npm cache verify && npm install && npm start -- --reset-cache"
+  },
+  "dependencies": {
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.3.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.3.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

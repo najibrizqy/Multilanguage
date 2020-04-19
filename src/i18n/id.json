@@ -1,0 +1,13 @@
+{
+    "selectLanguage" : "Pilih Bahasa",
+    "languageEn" : "Inggris",
+    "languageId" : "Indonesia",
+    "languageKr" : "Korea",
+    "profile" : "Profil",
+    "fullName" : "Nama Lengkap",
+    "nickname" : "Nama Panggilan",
+    "gender" : "Jenis Kelamin",
+    "genderType" : "Laki-laki",
+    "hoby" : "Hobi",
+    "hobyValue" : "Bermain Game"
+}

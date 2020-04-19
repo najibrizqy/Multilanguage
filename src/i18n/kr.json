@@ -1,0 +1,13 @@
+{
+    "selectLanguage" : "언어를 선택하십시오",
+    "languageEn" : "영국",
+    "languageId" : "인도네시아",
+    "languageKr" : "한국",
+    "profile" : "프로필",
+    "fullName" : "성명",
+    "nickname" : "닉네임",
+    "gender" : "성별",
+    "genderType" : "소년",
+    "hoby" : "취미",
+    "hobyValue" : "게임하기"
+}

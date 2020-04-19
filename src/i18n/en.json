@@ -1,0 +1,13 @@
+{
+    "selectLanguage": "Select Language",
+    "languageEn" : "English",
+    "languageId" : "Indonesian",
+    "languageKr" : "Korea",
+    "profile" : "Profile",
+    "fullName" : "Full Name",
+    "nickname" : "Nickname",
+    "gender" : "Gender",
+    "genderType" : "Male",
+    "hoby" : "Hoby",
+    "hobyValue" : "Gaming"
+}
