@@ -1,7 +1,7 @@
 <h1 align="center">Multi Language</h1>
 
 <p>
-  multi language is a simple project that I made for doing research on the application of multi-language to react native.
+  multi language is a simple project that I made to do research on multi language using i18n with a native react framework.
   React Native is an open-source mobile application framework created by Facebook. <a href="https://facebook.github.io/react-native/">More about React Native</a>
 </p>
 
