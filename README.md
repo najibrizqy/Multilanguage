@@ -6,7 +6,7 @@
 </p>
 
 ## Built With
-[![ReactNative](https://img.shields.io/badge/ReactNative-v.0.60.5-blue.svg?style=rounded-square)](https://reactnative.dev/docs/getting-started)
+[![ReactNative](https://img.shields.io/badge/ReactNative-v.0.62.5-blue.svg?style=rounded-square)](https://reactnative.dev/docs/getting-started/)
 [![Redux](https://img.shields.io/badge/Redux-v.4.0.5-green.svg?style=rounded-square)](https://redux.js.org/introduction/getting-started/)
 
 ## Requirements
