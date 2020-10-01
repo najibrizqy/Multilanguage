@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#e15858',
     },
     textActive:{
-        color: '#fff'
+        color: '#ffffff'
     },
     btnLanguage:{
         ...btn,
