@@ -1,13 +1,13 @@
 {
-  "name": "Multilanguage",
+  "name": "multilanguage",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "build": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && rimraf android/app/src/main/res/drawable-* && rimraf android/app/src/main/res/raw",
-    "apk-debug": "npm run clean && npm run build && cd android && gradlew assembleDebug",
-    "apk": "npm run clean && npm run build && cd android && gradlew assembleRelease",
-    "release": "npm run clean && npm run build && cd android && gradlew bundleRelease",
-    "clean": "cd android && gradlew clean",
+    "apk-debug": "npm run clean && npm run build && cd android && ./gradlew assembleDebug",
+    "apk": "npm run clean && npm run build && cd android && ./gradlew assembleRelease",
+    "release": "npm run clean && npm run build && cd android && ./gradlew bundleRelease",
+    "clean": "cd android && ./gradlew clean",
     "rebuild": "react-native bundle --platform android --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --dev false --reset-cache --assets-dest android/app/src/main/res/",
     "android": "npm run clean && react-native run-android",
     "ios": "npm run clean && react-native run-ios --simulator=\"iPhone X\"",
